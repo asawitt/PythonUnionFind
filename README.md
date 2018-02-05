@@ -4,12 +4,12 @@ UnionFind DataStructure with path compression and union by rank for near-linear 
 ## Installation
 -Fastest would be to copy-paste the contents of UnionFind.py into your code
 
--Or you could download UnionFind.py and throw it in your project directory. Use "from DisjointSet import *" to use it in your code
+-Or you could download UnionFind.py and throw it in your project directory. Use "from UnionFind import *" to use it in your code
 
 -You could clone https://github.com/asawitt/PythonUnionFind/ , move UnionFind.py to your project directory, then use the above import statement if you really want to. Don't. 
 
 ## Usage
-### Create a new DisjointSet
+### Create a new UnionFind
 sets = UnionFind()
 ### MakeSet
 -Makes a new set with value x, if x is not currently in the data-structure
